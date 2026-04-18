@@ -1,0 +1,43 @@
+name: t3-stack
+display_name: "T3 Stack"
+description: "Memory infrastructure preset for T3 Stack projects (Next.js + tRPC + Tailwind + Prisma + TypeScript). Optimised for use with Codex, OpenCode, and Cursor. Tracks architecture decisions, schema changes, tRPC router patterns, and feature context across agent sessions."
+dimensions:
+  atomicity: 0.7
+  organization: 0.8
+  linking: 0.6
+  processing: 0.6
+  session: 0.8
+  maintenance: 0.5
+  search: 0.5
+  automation: 0.7
+blocks:
+  always:
+    - atomic-notes
+    - wiki-links
+    - mocs
+    - processing-pipeline
+    - schema
+    - maintenance
+    - session-rhythm
+    - templates
+    - ethical-guardrails
+    - helper-functions
+    - self-evolution
+  conditional:
+    - semantic-search  # if qmd opted in
+  optional:
+    - graph-analysis
+  disabled:
+    - personality
+    - self-space
+self_space: false
+qmd: "user_choice"
+personality: "precise-technical"
+processing_depth: "decision + rationale capture"
+starter_mocs:
+  - "architecture"
+  - "trpc-routers"
+  - "prisma-schema"
+  - "features"
+  - "bugs"
+  - "env-config"

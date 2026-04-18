@@ -1,0 +1,44 @@
+# T3 Stack domain vocabulary
+# Maps canonical arscontexta terms -> T3-specific language
+vocabulary:
+  note: decision
+  reduce: distil
+  reflect: audit patterns
+  verify: type-check context
+  reweave: revisit
+  moc: module map
+  description_field: decision summary
+  topics_footer: stack layers
+  inbox: scratch
+  pipeline: review cycle
+  wiki_link: cross-reference
+  thinking_notes: spike notes
+  archive: resolved
+  orient: load context
+  persist: checkpoint
+
+folders:
+  notes: decisions
+  inbox: scratch
+  archive: resolved
+
+templates:
+  base_note: decision-note.md
+  moc: module-map.md
+
+skills:
+  reduce: /distil
+  reflect: /audit-patterns
+  verify: /type-check-context
+  reweave: /revisit
+
+# Stack-layer tags used in topics_footer
+stack_layers:
+  - nextjs
+  - trpc
+  - tailwind
+  - prisma
+  - typescript
+  - auth
+  - deployment
+  - env

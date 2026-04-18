@@ -1,0 +1,12 @@
+# Extraction categories for T3 Stack projects
+extraction_categories:
+  - architecture-decisions
+  - trpc-router-patterns
+  - prisma-schema-changes
+  - nextjs-page-and-layout-decisions
+  - auth-flow
+  - env-and-config
+  - bug-root-causes
+  - performance-observations
+  - type-patterns
+  - deployment-notes
